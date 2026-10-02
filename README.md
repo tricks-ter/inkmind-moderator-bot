@@ -56,7 +56,7 @@ python bot.py
 1. Add the bot to your Telegram Supergroup.
 2. Promote the bot to an **Administrator** with permissions to *Delete Messages*.
 3. Members can type `/rules` to see the group guidelines.
-4. The bot will quietly run in the background, keeping your exhibition space safe!
+4. The bot will quietly run in the background, keeping your community space safe!
 
 ## 📄 License
 MIT License
