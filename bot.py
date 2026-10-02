@@ -23,7 +23,7 @@ ai_client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Send a professional welcome message when the command /start is issued."""
     welcome_text = (
-        "🤖 Hello! I am the Exhibition Moderator Bot.\n\n"
+        "🤖 Hello! I am the InkMind Community Moderator.\n\n"
         "I provide professional group management, including:\n"
         "🛡️ AI-powered toxicity & spam filtering\n"
         "👋 Automated welcome messages\n"
@@ -35,10 +35,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def rules(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Display the group rules."""
     group_rules = (
-        "📜 *Professional Exhibition Rules:*\n"
+        "📜 *InkMind Community Rules:*\n"
         "1. Be respectful to all members.\n"
         "2. No spam or unsolicited promotions.\n"
-        "3. Keep discussions relevant to the exhibition/topic.\n"
+        "3. Keep discussions relevant to the community.\n"
         "4. Profanity and toxic behavior will result in a ban."
     )
     await update.message.reply_text(group_rules, parse_mode='Markdown')

@@ -1,6 +1,6 @@
-# 🛡️ Exhibition Moderator Bot
+# 🛡️ InkMind Group Moderator Bot
 
-> A professional, AI-powered Telegram group moderator designed to keep community spaces clean, respectful, and organized. Perfect for exhibitions, professional networking groups, and large communities.
+> A professional, AI-powered Telegram group moderator designed to keep community spaces clean, respectful, and organized. Built specifically for the InkMind ecosystem and large professional communities.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-21.0+-green.svg)
@@ -27,8 +27,8 @@
 ### 2. Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/your-username/exhibition-moderator-bot.git
-cd exhibition-moderator-bot
+git clone https://github.com/tricks-ter/inkmind-moderator-bot.git
+cd inkmind-moderator-bot
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
